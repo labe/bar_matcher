@@ -1,0 +1,21 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: bar_matcher_development
+  pool: 5
+  username: root
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: bar_matcher_test
+  pool: 5
+  username: root
+
+production:
+  encoding: utf8
+  reconnect: false
+  database: bar_matcher_production
+  pool: 5
